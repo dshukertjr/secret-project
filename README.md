@@ -1,40 +1,19 @@
-# Supabase Starter
+# Supabase Happy Hour Episode 28
 
-This starter configures Supabase Auth to use cookies, making the user's session available throughout the entire Next.js app - Client Components, Server Components, Route Handlers, Server Actions and Middleware.
+[![Supabase Happy Hour](https://raw.githubusercontent.com/dshukertjr/secret-project/main/.github/images/youtube-thumbnail.png)](https://www.youtube.com/watch?v=_Z2f-gGrYu8)
 
-## Deploy your own
+This project is a simple shopping list application created during a [Supabase Happy Hour stream](https://www.youtube.com/watch?v=_Z2f-gGrYu8) using the [Next.js with-supabase template](https://vercel.com/templates/next.js/supabase). 
 
-The Vercel deployment will guide you through creating a Supabase account and project. After installation of the Supabase integration, all relevant environment variables will be set up so that the project is usable immediately after deployment 🚀
+## Signing in
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-supabase&project-name=nextjs-with-supabase&repository-name=nextjs-with-supabase&integration-ids=oac_jUduyjQgOyzev1fjrW83NYOv)
+You can sign into our hosted example project with the following credentials:
 
-## How to use
+email: `tyler@supabase.io`
+password: `password`
 
-1. Create a [new Supabase project](https://database.new)
-1. Run `npx create-next-app -e with-supabase` to create a Next.js app using the Supabase Starter template
-1. Use `cd` to change into the app's directory
-1. Run `npm install` to install dependencies
-1. Rename `.env.local.example` to `.env.local` and update the values for `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` from [your Supabase project's API settings](https://app.supabase.com/project/_/settings/api)
-1. Run `npm run dev` to start the local development server
+## Contributions
 
-> Check out [the docs for Local Development](https://supabase.com/docs/guides/getting-started/local-development) to also run Supabase locally.
-
-### Create a Supabase client
-
-Check out the [`/app/_examples`](./app/_examples/) folder for an example of creating a Supabase client in:
-
-- [Client Components](./app/_examples/client-component/page.tsx)
-- [Server Components](./app/_examples/server-component/page.tsx)
-- [Route Handlers](./app/_examples/route-handler/route.ts)
-- [Server Actions](./app/_examples/server-action/page.tsx)
-
-### Create `todo` table and seed with data (optional)
-
-Navigate to [your project's SQL Editor](https://app.supabase.com/project/_/sql), click `New query`, paste the contents of the [init.sql](./supabase/migrations/20230618024722_init.sql) file and click `RUN`.
-
-This will create a basic `todos` table, enable Row Level Security (RLS), and write RLS policies enabling `select` and `insert` actions for `authenticated` users.
-
-To seed your `todos` table with some dummy data, run the contents of the [seed.sql](./supabase/seed.sql) file.
+Any contributions is welcome! Please feel free to open a PR or issue if you have any questions or suggestions. Happy Hour stream projects are a great way to get started with Open Source contributions.
 
 ## Feedback and issues
 
